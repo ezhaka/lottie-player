@@ -2,7 +2,7 @@ import { customElement, property } from 'lit-element';
 import * as pako from 'pako';
 
 import { LottiePlayer, parseSrc, PlayerEvents } from './lottie-player';
-import styles from './tgs-player.styles';
+import styles from './tgs-player.styles.ts';
 
 /**
  * Load a resource from a path URL.
